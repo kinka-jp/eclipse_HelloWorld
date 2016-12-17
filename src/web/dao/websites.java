@@ -11,7 +11,7 @@ public class websites {
 	public static void main(String args[]) {
 	    try {
 	      Class.forName("com.mysql.jdbc.Driver");     //加载MYSQL JDBC驱动程序   
-	      //Class.forName("org.gjt.mm.mysql.Driver");
+	     
 	     System.out.println("Success loading Mysql Driver!");
 	    }
 	    catch (Exception e) {
